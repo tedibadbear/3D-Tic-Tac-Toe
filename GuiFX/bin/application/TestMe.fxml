@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2f3180ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainSceneController">
+   <children>
+      <Button id="tutorialbackbtn" fx:id="tutorialbackbtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mainMenu" text="Back" />
+      <Button fx:id="hum1rob2" layoutX="104.0" layoutY="102.0" mnemonicParsing="false" onAction="#humanVsRobot" style="-fx-background-color: #ffe169ff;" text="Player 1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="rob1hum2" layoutX="375.0" layoutY="102.0" mnemonicParsing="false" onAction="#robotVsHuman" style="-fx-background-color: #ffe169ff;" text="Player 2">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

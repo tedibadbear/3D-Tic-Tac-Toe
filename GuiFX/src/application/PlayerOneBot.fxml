@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2f3180ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainSceneController">
+   <children>
+      <Label layoutX="156.0" layoutY="31.0" text="Player 1 Bot difficulty" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="bot1diff" layoutX="224.0" layoutY="176.0" mnemonicParsing="false" onAction="#bot1Diff" prefHeight="52.0" prefWidth="153.0" style="-fx-background-color: #fccf14ff;" text="Difficult">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="bot1imp" layoutX="224.0" layoutY="110.0" mnemonicParsing="false" onAction="#bot1Imp" style="-fx-background-color: #fccf14ff;" text="Impossible">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="bot1easy" layoutX="224.0" layoutY="312.0" mnemonicParsing="false" onAction="#bot1Easy" prefHeight="52.0" prefWidth="153.0" style="-fx-background-color: #fccf14ff;" text="Easy">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="bot1hard" layoutX="224.0" layoutY="245.0" mnemonicParsing="false" onAction="#bot1Hard" prefHeight="52.0" prefWidth="153.0" style="-fx-background-color: #fccf14ff;" text="Hard">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

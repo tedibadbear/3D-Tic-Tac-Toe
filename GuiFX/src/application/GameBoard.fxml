@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="619.0" style="-fx-background-color: #2f3180ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainSceneController">
+   <children>
+      <GridPane gridLinesVisible="true" layoutX="256.0" layoutY="9.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="108.0" prefWidth="108.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="square114" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square114Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" />
+            <Button fx:id="square314" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square314Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" />
+            <Button fx:id="square414" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square414Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" />
+            <Button fx:id="square124" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square124Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="1" />
+            <Button fx:id="square224" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square224Clcik" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="square324" layoutX="62.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square324Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="square424" layoutX="89.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square424Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="square134" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square134Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="2" />
+            <Button fx:id="square234" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square234Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="square334" layoutX="62.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square334Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="square434" layoutX="89.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square434Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="square144" layoutX="10.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square144Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="3" />
+            <Button fx:id="square244" layoutX="36.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square244Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="square344" layoutX="62.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square344Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="square444" layoutX="89.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square444Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="square214" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square214Click" prefHeight="27.0" prefWidth="27.0" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <GridPane gridLinesVisible="true" layoutX="256.0" layoutY="122.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="108.0" prefWidth="108.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="square113" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square113Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" />
+            <Button fx:id="square213" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square213Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" />
+            <Button fx:id="square313" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square313Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" />
+            <Button fx:id="square413" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square413Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" />
+            <Button fx:id="square123" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square123Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="1" />
+            <Button fx:id="square223" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square223Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="square323" layoutX="62.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square323Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="square423" layoutX="89.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square423Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="square133" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square133Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="2" />
+            <Button fx:id="square233" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square233Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="square333" layoutX="62.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square333Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="square433" layoutX="89.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square433Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="square143" layoutX="10.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square143Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="3" />
+            <Button fx:id="square243" layoutX="36.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square243Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="square343" layoutX="62.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square343Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="square443" layoutX="89.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square443Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <GridPane gridLinesVisible="true" layoutX="256.0" layoutY="235.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="108.0" prefWidth="108.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="square112" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square112Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" />
+            <Button fx:id="square212" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square212Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" />
+            <Button fx:id="square312" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square312Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" />
+            <Button fx:id="square412" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square412Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" />
+            <Button fx:id="square122" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square122Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="1" />
+            <Button fx:id="square222" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square222Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="square322" layoutX="62.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square322Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="square422" layoutX="89.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square422Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="square132" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square132Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="2" />
+            <Button fx:id="square232" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square232Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="square332" layoutX="62.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square332Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="square432" layoutX="89.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square432Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="square142" layoutX="10.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square142Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="3" />
+            <Button fx:id="square242" layoutX="36.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square242Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="square342" layoutX="62.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square342Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="square442" layoutX="89.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square442Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <GridPane gridLinesVisible="true" layoutX="256.0" layoutY="348.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="108.0" prefWidth="108.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="31.0" minWidth="25.0" prefWidth="31.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="square111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square111Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" />
+            <Button fx:id="square211" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square211Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" />
+            <Button fx:id="square311" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square311Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" />
+            <Button fx:id="square411" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square411Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" />
+            <Button fx:id="square121" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square121Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="1" />
+            <Button fx:id="square221" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square221Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="square321" layoutX="62.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square321Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="square421" layoutX="89.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square421Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="square131" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square131Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="2" />
+            <Button fx:id="square231" layoutX="36.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square231Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="square331" layoutX="62.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square331Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="square431" layoutX="89.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square431Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="square141" layoutX="10.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square141Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.rowIndex="3" />
+            <Button fx:id="square241" layoutX="36.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square241Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="square341" layoutX="62.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square341Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="square441" layoutX="89.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#square441Click" prefHeight="27.0" prefWidth="27.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <Button fx:id="turndisplay" layoutX="14.0" layoutY="53.0" mnemonicParsing="false" text="X Player's turn">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="tutorialbackbtn" fx:id="tutorialbackbtn" layoutX="519.0" layoutY="22.0" mnemonicParsing="false" onAction="#mainMenu" text="Main menu" />
+      <Button fx:id="freeplaybtn" layoutX="519.0" layoutY="63.0" mnemonicParsing="false" onAction="#playSelect" prefHeight="25.0" prefWidth="77.0" text="New Game" textAlignment="CENTER" />
+      <Label fx:id="testdenom" layoutX="82.0" layoutY="228.0" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: #2f3180ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="testnum" layoutX="82.0" layoutY="184.0" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: #2f3180ff;" textAlignment="CENTER" textFill="WHITE" underline="true">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="testend" layoutX="4.0" layoutY="117.0" prefHeight="63.0" prefWidth="232.0" style="-fx-background-color: #ffffffff;" text="Good Luck!">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="testmebtn" layoutX="519.0" layoutY="105.0" mnemonicParsing="false" onAction="#testMe" prefHeight="25.0" prefWidth="77.0" text="New Test" textAlignment="CENTER" />
+      <Button fx:id="nxtround" layoutX="45.0" layoutY="315.0" mnemonicParsing="false" onAction="#nxtRound" text="Start Game">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
